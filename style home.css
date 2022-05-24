@@ -1,0 +1,171 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Roboto";
+}
+
+
+body{
+	background-color: rgb(34, 34, 34);
+}
+
+.center{
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 0 2%;
+}
+
+header{
+	padding: 30px 0;
+	
+}
+
+.clear{clear: both;}
+
+
+.logo{
+	width: 20%;
+	float: left;
+}
+
+.logo h2{
+	color: rgb(132, 13, 201);
+	font-size: 32px;
+	line-height: 30px;
+	font-family:sans-serif 
+
+}
+
+
+.menu{
+	float: left;
+	width: 70%;
+	text-align: center;
+}
+
+	.menu a{
+        margin: 2 50px;
+        text-decoration: none;
+        color: #ffffff;
+}
+
+.menu a:hover{
+	color: rgb(132, 13, 201);
+}
+
+
+.icons-menu{
+	float: left;
+	width: 10%;
+}
+
+.icons-menu a{
+	margin:0 10px;
+}
+
+
+.topo-1{
+	float: left;
+	width: 60%;
+}
+
+.topo-1 h3{
+	color: #ffffff;
+}
+
+.topo-1 h1{
+	margin:20px 0;
+	color:#ffffff;
+	font-size: 56px;
+}
+
+.topo-1 h1 > span{
+	color: rgb(132, 13, 201);
+}
+
+.topo-1 p{
+	color: #ffffff;
+}
+.topo-2{
+	float: left;
+	width: 40%;
+}
+
+.topo-2 img{
+	width: 100%;
+	max-width: 100%;
+}
+
+.topo-1 a{
+	border-radius: 4px;
+  background-color:rgb(132, 13, 201);
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 15px;
+  color: white;
+}
+
+section.servicos{
+	padding: 40px 0;
+}
+
+.chamada-servicos{
+	margin-top:50px;
+	text-align: center;
+}
+
+.chamada-servicos h4{
+	font-size: 16px;
+	color:white;
+}
+
+.chamada-servicos h1{
+	font-size: 55px;
+	color: rgb(132, 13, 201);
+}
+
+.descricao-servicos{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+.img-servicos{
+	width: 60%;
+}
+.img-servicos img{
+	max-width: 100%;
+}
+
+.detalhes-servicos{
+	padding: 30px 30px;
+	width: 40%;
+}
+
+.detalhes-servicos h3{
+	color: rgb(132, 13, 201);
+	font-size: 26px;
+	font-weight: normal;
+	margin:10px 0;
+}
+
+
+.detalhes-servicos p{
+	color:	#ffffff;
+	font-size: 14px;
+
+
+}
+
+@media screen and (max-width: 768px){
+	.img-servicos,
+	.detalhes-servicos{
+		width: 100%;
+	}
+	.topo-2,
+	.topo-1{
+		width: 100%;
+		margin:20px 0;
+	}
+}
